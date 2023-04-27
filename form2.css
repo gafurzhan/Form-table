@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(45deg, #AA44AF, #F3429B);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Golos Text", sans-serif;
+}
+form{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 5px;
+    width: 30%;
+    margin: auto;
+}
+form h1{
+    text-align: center;
+    font-weight: 600;
+}
+.form-btns{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 20px;
+}
+.login{
+    background: linear-gradient(45deg, #AA44AF, #F3429B);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.form-btns button{
+    font-size: 17px;
+    font-weight: 500;
+}
+.sign-up{
+    border: none;
+}
+button{
+    cursor: pointer;
+}
+input{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d5d5d5;
+    outline: none;
+}
+input::placeholder{
+    color: #acadae;
+}
+.forgot{
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #F3429B;
+}
+.submit{
+    display: grid;
+}
+.submit.login{
+    font-size: 18px;
+}
+.form-footer{
+    margin-top: 20px;
+    text-align: center;
+}
+.form-footer a{
+    text-decoration: none;
+    color: #F3429B;
+}
